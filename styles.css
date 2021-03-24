@@ -1,0 +1,225 @@
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: goldenrod;
+    overflow: hidden;
+}
+
+.nav a {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+header {
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    background-image: url(img/BeeHive.jpg);
+    background-size: cover;
+
+}
+.coachella {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    transition: all .2s ease-in-out;
+}
+
+.coachella:hover {
+    transform: scale(1.2);
+}
+
+body {
+    background-color: rgb(46, 47, 48);
+}
+
+h1 {
+    font-size: 72px;
+}
+
+
+
+.ninety-six {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: goldenrod;
+    
+}
+
+.image {
+    padding-top: 10px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    transition: all .2s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.2);
+}
+
+.destiny {
+    padding-left: 20px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    transition: all .2s ease-in-out;
+}
+
+.destiny:hover {
+    transform: scale(1.2);
+}
+
+.ninety-eight {
+    
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: goldenrod;
+}
+
+.o-three {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: goldenrod;
+}
+
+.solo {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    transition: all .2s ease-in-out;
+}
+
+.solo:hover {
+    transform: scale(1.2);
+}
+
+.fam {
+    padding-left: 20px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    transition: all .2s ease-in-out;
+    
+}
+
+.fam:hover {
+    transform: scale(1.2);
+}
+
+.o-eight{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: goldenrod;
+}
+
+
+.sixteen {
+    display: flex;
+    justify-content: space-around;
+    font-size: 19px;
+    color:goldenrod;
+}
+
+.lemonade {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    transition: all .2s ease-in-out;
+}
+
+.lemonade:hover {
+    transform: scale(1.2);
+}
+
+.insta {
+    padding-left: 20px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    transition: all .2s ease-in-out;
+}
+
+.insta:hover {
+    transform: scale(1.2);
+}
+
+.seventeen{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: goldenrod;
+}
+
+.nineteen {
+    display: flex;
+    justify-content: space-around;
+    font-size: 19px;
+    color: goldenrod;
+}
+
+.ivy {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    transition: all .2s ease-in-out;
+}
+
+.ivy:hover {
+    transform: scale(1.2);
+}
+
+.king {
+    padding-left: 20px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    transition: all .2s ease-in-out;
+}
+
+.king:hover {
+    transform: scale(1.2);
+}
+
+.twenty-twenty {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: goldenrod;
+}
+
+footer {
+    text-align: center;
+    background-color: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+h3 {
+    color: goldenrod;
+}
+
+/* Media Queries */
+@media (min-width: 500px ) {
+
+
+
+
+}
