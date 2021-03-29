@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
  
-<div class="nav">
-    <a href="tribute">Tribute</a>
-    <a href="playlist">Playlists</a>
-    <a href="beyhive">Join The Beyhive</a>
+<div class="container">
+    <nav class="navbar">
+        <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#tribute" class="nav-link">Tribute</a>
+            </li>
+            <li class="nav-item">
+                <a href="#playlists" class="nav-link">Playlists</a>
+            </li>
+            <li class="nav-item">
+                <a href="#beyhive" class="nav-link">Join The Beyhive</a>
+            </li>
+        </ul>
+    </nav>
 </div>
+    
     <head>
         <title>Beyoncé Tribute</title>
         <link rel= "stylesheet" href="styles.css">
@@ -19,8 +36,10 @@
    </header>
     
    <body>
-        <div class="ninety-six">
-            <ul style="list-style-type: none;">
+       
+       <script src="script1.js"></script>
+        <div class="row">
+            <ul href="#tribute" style="list-style-type: none;">
                 <li><b>1981</b>: Beyoncé Giselle Knowles is born on September 4th to Celestine “Tina” and Matthew Knowles</li>
                 <li><b>1988</b>: Beyoncé entered and won her first talent show at the age of seven</li>
                 <li><b>1990</b>: Beyoncé and her cousin Kelly Rowland, became part of a girl group “Girl’s Tyme”  with four other girls</li>
@@ -29,7 +48,7 @@
             <img class="image" src="img/GirlsTyme.jpg" alt="Girls Tyme" >
         </div>    
 
-        <div class="ninety-eight">
+        <div class="row">
             <img class="destiny" src="img/1361.webp" alt="Destiny’s Child">
             <ul style="list-style-type: none;">
                 <li><b>1998</b>: Destiny’s child released their self titled debut album. Winning three Soul Train Lady of Soul Awards for Best R&B/Soul Album of the Year, Best R&B/Soul or Rap Artist, and Best R&B single for “No No No”.</li>
@@ -45,7 +64,7 @@
             </ul>
         </div>
 
-        <div class="o-three">
+        <div class="row">
             <ul style="list-style-type: none;">
                 <li><b>2003</b>: Beyoncé drops her first solo album “Dangerously in Love”, where five for the songs charted number one.</li>              
                 <li><b>2004</b>: Beyoncé opened the grammy’s with Prince. Took home five Grammy’s, tying the record for most wins for a female artist.</li>
@@ -55,7 +74,7 @@
             <img class="solo" src="img/Solo.jpg" alt="Beyoncé at the 2004 Grammy Awards with her 5 awards">
         </div>
 
-        <div class="o-eight">
+        <div class="row">
             <img class="fam" src="img/DanceWithYou.webp">
             <ul style="list-style-type: none;">
             <li><b>2008</b>: Secretly married long time boyfriend, hip hop mogul JAY-Z.</li> 
@@ -66,7 +85,7 @@
             </ul>
         </div>
 
-        <div class="sixteen">
+        <div class="row">
             <ul style="list-style-type: none;">
             <li><b>2016</b>: 
                 <ul>
@@ -78,10 +97,10 @@
             <img class="lemonade" src="img/beyonce_formation_lemonade.jpg">
         </div>
 
-        <div class="seventeen">
+        <div class="row">
             <img class="insta" src="img/BeyonceBreaksTheInternet.png">
             <ul style="list-style-type: none;">
-            <li><b>2017</b>: Beyoncé announces second via an Instagram post. With 11.1 million likes, the photo became the most liked photo of all time. Later giving birth to twins, Sir and Rumi Carter.</li>
+            <li><b>2017</b>: Beyoncé announces second pregancy via an Instagram post. With 11.1 million likes, the photo became the most liked photo of all time. Later giving birth to twins, Sir and Rumi Carter.</li>
             <li><b>2018</b>: 
                 <ul>
                     <li>Beyoncé received the WACO Theater Humanitarian Award for supporting a number of relief efforts which were all funded through her non-profit organization, BeyGOOD</li>
@@ -92,7 +111,7 @@
         </div>
 
         
-    <div class="nineteen">
+    <div class="row">
             <ul style="list-style-type: none;">
         <li><b>2019</b>: 
             <ul>
@@ -105,7 +124,7 @@
             <img class="ivy" src="img/ivypark.png">
             </div>
 
-            <div class="twenty-twenty">
+            <div class="row">
                 <img class="king" src="img/beyonce-black-is-king-7.webp">
             <ul style="list-style-type: none;">
                 <li><b>2020</b>: 
@@ -115,14 +134,60 @@
                     </ul>
                     </li>
         </ul> 
-    </div>  
-    
-    <h3>If you haven't heard any of Beyoncé's Grammy winning or classic hits over the last 25 years, feel free to check out these playlist on any of the following streaming platforms.</h3>
+    </div> 
+
+   
+         <h3>If you haven't heard any of Beyoncé's Grammy winning or classic hits over the last 25 years, feel free to check out these playlist on any of the following streaming platforms.</h3>
         <ul style="list-style-type: none;">
             <li><a href="https://music.apple.com/us/playlist/beyonc%C3%A9-essentials/pl.5f8c5bff172544048505f0b3253ee178">Apple Music</a></li>
             <li><a href="https://tidal.com/browse/playlist/26591fd0-cc2b-47ff-b4ec-30d2c98c127e">Tidal</a></li>
             <li><a href="https://open.spotify.com/playlist/7lo1rUZYXhRjo18CG9mTQl">Spotify</a></li>
         </ul>
+
+        <div class="join">
+            <form class="form form-hidden" id="login">
+                <h3 class="form-title">Login</h3>
+                <div class="form-message form-message-error"></div>
+                <div class="form-input-group">
+                    <input type="text" class="form-input" autofocus placeholder="Username or Email"></input>
+                    <div class="form-input-error"></div>
+                <div class="form-input-group">
+                        <input type="text" class="form-input" autofocus placeholder="Password"></input>
+                        <div class="form-input-error"></div>    
+                </div>
+                <button class="form-button" type="submit">Continue</button>
+                <p class="form-text">
+                    <a href="#" class="form-link">Forgot your password?</a>
+                </p>
+                <p class="form-text">
+                    <a href="./" class="form-link" id="linkCreateAccount">Don't have an account? Create  account</a>
+                </p>
+
+            </form>
+            <form class="form" id="createAccount">
+                <h3 class="form-title">Create Account</h3>
+                <div class="form-message form-message-error"></div>
+                <div class="form-input-group">
+                    <input type="text" class="form-input" autofocus placeholder="Username"></input>
+                    <div class="form-input-error"></div>
+                    <div class="form-input-group">
+                        <input type="text" class="form-input" autofocus placeholder="Email Address"></input>
+                        <div class="form-input-error"></div>
+                <div class="form-input-group">
+                        <input type="text" class="form-input" autofocus placeholder="Password"></input>
+                        <div class="form-input-error"></div>   
+                <div class="form-input-group">
+                            <input type="text" class="form-input" autofocus placeholder="Confirm Password"></input>
+                            <div class="form-input-error"></div>          
+                </div>
+                <button class="form-button" type="submit">Continue</button>
+               
+                <p class="form-text">
+                    <a href="./" class="form-link" id="linkLogin">Already have an account? Sign in.</a>
+                </p>
+
+            </form>
+        </div>
     </body>
 
     <footer class="footer">&copy; 2021 Code Louisville Project</footer>
