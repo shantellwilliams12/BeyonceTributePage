@@ -17,7 +17,7 @@
                 <a href="#playlists" class="nav-link">Playlists</a>
             </li>
             <li class="nav-item">
-                <a href="#beyhive" class="nav-link">Join The Beyhive</a>
+                <a href="#beyhive" class="nav-link">Contact The Beyhive</a>
             </li>
         </ul>
     </nav>
@@ -144,49 +144,30 @@
             <li><a href="https://open.spotify.com/playlist/7lo1rUZYXhRjo18CG9mTQl">Spotify</a></li>
         </ul>
 
-        <div class="join">
-            <form class="form form-hidden" id="login">
-                <h3 class="form-title">Login</h3>
-                <div class="form-message form-message-error"></div>
-                <div class="form-input-group">
-                    <input type="text" class="form-input" autofocus placeholder="Username or Email"></input>
-                    <div class="form-input-error"></div>
-                <div class="form-input-group">
-                        <input type="text" class="form-input" autofocus placeholder="Password"></input>
-                        <div class="form-input-error"></div>    
-                </div>
-                <button class="form-button" type="submit">Continue</button>
-                <p class="form-text">
-                    <a href="#" class="form-link">Forgot your password?</a>
-                </p>
-                <p class="form-text">
-                    <a href="./" class="form-link" id="linkCreateAccount">Don't have an account? Create  account</a>
-                </p>
+        <div class="wrapper">
+            <h2>Contact Us</h2>
+            <div id="error-message"></div>
 
-            </form>
-            <form class="form" id="createAccount">
-                <h3 class="form-title">Create Account</h3>
-                <div class="form-message form-message-error"></div>
-                <div class="form-input-group">
-                    <input type="text" class="form-input" autofocus placeholder="Username"></input>
-                    <div class="form-input-error"></div>
-                    <div class="form-input-group">
-                        <input type="text" class="form-input" autofocus placeholder="Email Address"></input>
-                        <div class="form-input-error"></div>
-                <div class="form-input-group">
-                        <input type="text" class="form-input" autofocus placeholder="Password"></input>
-                        <div class="form-input-error"></div>   
-                <div class="form-input-group">
-                            <input type="text" class="form-input" autofocus placeholder="Confirm Password"></input>
-                            <div class="form-input-error"></div>          
+            <form id="myform">
+                <div class="input-field">
+                    <input type="text" placeholder="Name" id="name">
                 </div>
-                <button class="form-button" type="submit">Continue</button>
-               
-                <p class="form-text">
-                    <a href="./" class="form-link" id="linkLogin">Already have an account? Sign in.</a>
-                </p>
-
-            </form>
+                <div class="input-field">
+                    <input type="text" placeholder="Subject" id="subject">
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Phone" id="phone">
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email" id="email">
+                </div>
+                <div class="input-field">
+                    <textarea id="message" placeholder="Message"></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit">
+                </div>
+            
         </div>
     </body>
 
