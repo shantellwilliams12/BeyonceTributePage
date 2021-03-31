@@ -135,6 +135,7 @@ body {
 
 h1 {
     font-size: 72px;
+    
 }
 
 .row {
@@ -173,11 +174,5 @@ footer {
 /* --- Media Queries --- */
 @media (min-width: 343px ) {
    
-   h1 {
-       font-size: 60px;
-   }
-    .row > image {
-       display: none;
-   }
 
 }
