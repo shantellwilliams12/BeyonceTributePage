@@ -10,6 +10,8 @@
 
 body {
     background: #fece0c;
+    background-image: url(img/BeeHive.jpg);
+    background-size: cover;
 }
 
 .wrapper {

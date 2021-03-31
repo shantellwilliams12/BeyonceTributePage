@@ -160,14 +160,24 @@ h3 {
     color: goldenrod;
 }
 
+footer {
+    padding: 15px;
+    background: goldenrod;
+    text-align: center;
+}
+
 /* --- Login/Signup Form --- */
 
 
 
 /* --- Media Queries --- */
-@media (min-width: 500px ) {
-
-
-
+@media (min-width: 343px ) {
+   
+   h1 {
+       font-size: 60px;
+   }
+    .row > image {
+       display: none;
+   }
 
 }
