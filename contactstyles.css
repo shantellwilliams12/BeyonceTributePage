@@ -77,8 +77,10 @@ body {
 
 /* --- Media Queries --- */
 
-@media (min-width: 608px) {
+@media (min-width: 500px) {
     body {
+        background-image: url(img/BeeHive.jpg);
         background-size: cover;
+        
     }
 }
